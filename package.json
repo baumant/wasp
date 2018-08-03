@@ -1,0 +1,36 @@
+{
+  "name": "waspy",
+  "version": "1.0.1",
+  "description": "wordpress awesome starter package",
+  "author": "Tim Bauman & Doreen Trinh",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "waspy": "./project.js"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "inquirer": "^6.0.0",
+    "mongoose": "^5.2.6"
+  },
+  "main": "project.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baumant/wasp.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "starter",
+    "wasp",
+    "waspy"
+  ],
+  "bugs": {
+    "url": "https://github.com/baumant/wasp/issues"
+  },
+  "homepage": "https://github.com/baumant/wasp#readme"
+}
